@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: aquamarine;
+    
+}
+.navbar{
+    background-color: black;
+   
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100%;
+    overflow:auto ;
+
+}
+.navbar a{
+    float: left;
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+
+}
+.navbar a.home{
+    background-color: green;
+}
+.navbar a:hover{
+    background-color: grey;
+}
+
+.center{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+    
+}
+ .container{
+   display: fixed;
+   align-items: center;
+    max-width: 30%;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 20px;
+    border-radius: 30px;
+    
+}
+.center .container h1{
+    color:blue;
+    text-align: center;
+    text-shadow: 4px 2px orange;
+    
+}
+.center .container div {
+    margin: 20px 5px;
+    
+}
+
+.center .container label{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5%;
+    text-shadow: 3px 2px blue;
+}
+.center .container input[type="text"],input[type="password"]{
+
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 40px;
+    width: 100%;
+    font-size: 20px;
+    border: 2px solid white;
+    background-color: rgb(209, 203, 214);
+}
+.center .container input[type="submit"]{
+
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 40px;
+    width: 100%;
+    font-size: 20px;
+    border: 2px solid white;
+    background-color: rgb(155, 92, 206);
+    cursor: pointer;
+}
+.center .container input[type="submit"]:hover{
+    background-color: rgb(228, 145, 20);
+}
+.center .container .forget{
+  
+    align-items: center;
+  
+}
+.center .container .forget a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 3px 2px blue;
+}
+
+.center .container div .button{
+    width: 100%;
+    font-size:20px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    height: 40px;
+    border: 2px solid white;
+    color: black;
+    background-color: rgb(245, 122, 245);
+}
+.center .container div .button:hover{
+    background-color:#18df18 ;
+}
+.center .container div .button a{
+    text-decoration: none;
+    
+}
+.center .container div p{
+    font-size: 20px;
+    text-shadow: 3px 2px blue;
+}
+.center .container div textarea{
+    background-color: rgb(209, 203, 214);
+    border-radius: 20px;
+
+}
